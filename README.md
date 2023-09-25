@@ -63,5 +63,3 @@ Mention any libraries, frameworks, or individuals you want to acknowledge for th
 Include any additional information or credits related to MedSync.
 
 ---
-
-Feel free to customize this README template with specific details about your MedSync project. It's a valuable resource for anyone who visits your GitHub repository and wants to understand and contribute to your project.
