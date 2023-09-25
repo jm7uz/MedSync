@@ -46,7 +46,7 @@ Explain how others can contribute to MedSync. Include guidelines for reporting i
 
 ## License
 
-This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [GPL-3.0 license] - see the [LICENSE](https://github.com/jm7uz/MedSync/blob/main/LICENSE) file for details.
 
 ## Acknowledgments
 
