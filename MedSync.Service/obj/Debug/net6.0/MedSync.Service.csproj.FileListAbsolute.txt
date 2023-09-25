@@ -9,3 +9,9 @@ C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\o
 C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\obj\Debug\net6.0\refint\MedSync.Service.dll
 C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\obj\Debug\net6.0\MedSync.Service.pdb
 C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\obj\Debug\net6.0\ref\MedSync.Service.dll
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\obj\Debug\net6.0\MedSync.Service.csproj.AssemblyReference.cache
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\bin\Debug\net6.0\MedSync.Data.dll
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\bin\Debug\net6.0\MedSync.Domain.dll
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\bin\Debug\net6.0\MedSync.Data.pdb
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\bin\Debug\net6.0\MedSync.Domain.pdb
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\obj\Debug\net6.0\MedSync.Service.csproj.CopyComplete

@@ -8,8 +8,8 @@ namespace MedSync.Domain.Configurations
 {
     public class DatabasePath
     {
-        public const string UserDb = "../../../MedSync.Data/Databases/UserDb.txt";
-        public const string AppointmentsTable = "../../../MedSync.Data/Databases/AppointmentsTable.txt";
+        public const string UserDb = "../../../../MedSync.Data/Databases/UserDb.txt";
+        public const string AppointmentsTable = "../../../../MedSync.Data/Databases/AppointmentsTable.txt";
 
     }
 }

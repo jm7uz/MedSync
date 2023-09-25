@@ -12,3 +12,12 @@ C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Presentat
 C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Presentation\obj\Debug\net6.0\MedSync.Presentation.pdb
 C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Presentation\obj\Debug\net6.0\MedSync.Presentation.genruntimeconfig.cache
 C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Presentation\obj\Debug\net6.0\ref\MedSync.Presentation.dll
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Presentation\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Presentation\bin\Debug\net6.0\MedSync.Data.dll
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Presentation\bin\Debug\net6.0\MedSync.Domain.dll
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Presentation\bin\Debug\net6.0\MedSync.Service.dll
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Presentation\bin\Debug\net6.0\MedSync.Service.pdb
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Presentation\bin\Debug\net6.0\MedSync.Data.pdb
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Presentation\bin\Debug\net6.0\MedSync.Domain.pdb
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Presentation\obj\Debug\net6.0\MedSync.Presentation.csproj.AssemblyReference.cache
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Presentation\obj\Debug\net6.0\MedSync.Presentation.csproj.CopyComplete
