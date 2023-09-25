@@ -9,3 +9,7 @@ C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Data\obj\
 C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Data\obj\Debug\net6.0\refint\MedSync.Data.dll
 C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Data\obj\Debug\net6.0\MedSync.Data.pdb
 C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Data\obj\Debug\net6.0\ref\MedSync.Data.dll
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Data\bin\Debug\net6.0\MedSync.Domain.dll
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Data\bin\Debug\net6.0\MedSync.Domain.pdb
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Data\obj\Debug\net6.0\MedSync.Data.csproj.AssemblyReference.cache
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Data\obj\Debug\net6.0\MedSync.Data.csproj.CopyComplete
