@@ -1,0 +1,11 @@
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\bin\Debug\net6.0\MedSync.Service.deps.json
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\bin\Debug\net6.0\MedSync.Service.dll
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\bin\Debug\net6.0\MedSync.Service.pdb
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\obj\Debug\net6.0\MedSync.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\obj\Debug\net6.0\MedSync.Service.AssemblyInfoInputs.cache
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\obj\Debug\net6.0\MedSync.Service.AssemblyInfo.cs
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\obj\Debug\net6.0\MedSync.Service.csproj.CoreCompileInputs.cache
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\obj\Debug\net6.0\MedSync.Service.dll
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\obj\Debug\net6.0\refint\MedSync.Service.dll
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\obj\Debug\net6.0\MedSync.Service.pdb
+C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Service\obj\Debug\net6.0\ref\MedSync.Service.dll
