@@ -24,6 +24,7 @@ namespace MedSync.Desktop.Pages
     /// </summary>
     public partial class Signup : Page
     {
+        private MainWindow _page1;
 
         public Signup()
         {
@@ -55,7 +56,12 @@ namespace MedSync.Desktop.Pages
 
                         if (result != null)
                         {
+                            
                             File.WriteAllText("LoginSession.txt", result.Id.ToString());
+                            _frame.Navigate(new Signup());
+                            Frame newFrame = new Frame();
+                            _frame.Content = newFrame;
+                            newFrame.Navigate(new UserAddAppointement());
                             MessageBox.Show($"{result.Id} {result.LastName} {result.FirstName}");
                         }
                         else

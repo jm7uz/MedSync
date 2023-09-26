@@ -40,11 +40,16 @@ namespace MedSync.Desktop
                 {
                     if (result.role == 0)
                     {
+                        Width = 600;
+                        Height = 600;
+                        _frame.Content = new UserAddAppointement();
                         File.WriteAllText("LoginSession.txt", result.Id.ToString());
-                        MessageBox.Show(all_data);
                     }
                     else
                     {
+                        Width = 600;
+                        Height = 600;
+                        _frame.Content = new Appointement();
                         File.WriteAllText("LoginSession.txt", result.Id.ToString());
                         MessageBox.Show(all_data);
                     }
