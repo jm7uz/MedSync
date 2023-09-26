@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="MedSync.Desktop.Components.AppointmentWidget"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MedSync.Desktop.Components"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="60" d:DesignWidth="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="80"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <TextBlock Text="Hello Boy | 15.03.2023 15:57 | Men siz bilan ko'rish.." FontSize="15" Foreground="White"
+                       Margin="10 20 0 0"/>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Button x:Name="cancel_button" Width="auto" Height="55" Background="Transparent" BorderBrush="Transparent">
+                <materialDesign:PackIcon Kind="Cancel" Foreground="#768C9E" Cursor="Hand"
+                             Width="40" Height="40"/>
+            </Button>
+        </Grid>
+        <Grid Grid.Column="2">
+            <Button x:Name="apporve_button" Width="auto" Height="55" Background="Transparent" BorderBrush="Transparent">
+                <materialDesign:PackIcon Kind="Done" Foreground="#768C9E" Cursor="Hand"
+                     Width="40" Height="40" Background="Transparent"/>
+            </Button>
+        </Grid>
+    </Grid>
+</UserControl>

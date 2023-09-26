@@ -4,9 +4,62 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MedSync.Desktop"
+        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Background="#D9D9D9"
+        Title="MainWindow" Height="750" Width="550" MaxHeight="750" MaxWidth="550">
     <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
 
+                <RowDefinition Height="400"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0">
+                
+                <Border Background="Transparent">
+                    <Image Source="Resources/Images/Logo.jpg" Stretch="Fill"
+        Width="300" Height="110" Margin="0 50 0 0"/>
+                </Border>
+                <Label Content="Healthcare Appointment" 
+        HorizontalAlignment="Center" 
+        Height="39" Width="260" FontSize="22" FontFamily="Bahnschrift SemiBold"
+        HorizontalContentAlignment="Center"/>
+                <Label Content="Scheduling and Management System" 
+       HorizontalAlignment="Center" 
+       Height="39" Width="394" FontSize="22" FontFamily="Bahnschrift SemiBold"
+       HorizontalContentAlignment="Center"/>
+
+                <Label Content="Email" HorizontalAlignment="Left" 
+       VerticalAlignment="Top" Margin="130, 0 ,0 , 0"
+       FontSize="16"/>
+                <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" Name="emailText" 
+         VerticalAlignment="Center" Width="282" Height="34" FontSize="20" 
+         FontFamily="Arial" Opacity="0.9" Cursor="Arrow" SelectionOpacity="0.5"/>
+
+                <Label Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" 
+           Margin="130, 0 ,0 , 0" FontSize="16"/>
+
+                <PasswordBox HorizontalAlignment="Center" Name="passwordText"
+     VerticalAlignment="Top" Width="282" Height="34" FontSize="20" 
+     FontFamily="Arial" Opacity="0.9" Cursor="Arrow" SelectionOpacity="0.5" />
+            </StackPanel>
+            <StackPanel Grid.Row="1">
+                <Button Grid.Row="1" Content="Login" Height="50" Width="200" FontSize="28"
+        VerticalAlignment="Top" Margin="0,10,0,0" Click="Button_Click"/>
+                <Grid>
+                    <Label Content="Dont have an account?" HorizontalAlignment="Center" 
+               Margin="-100 20 0 0" FontSize="14"/>
+
+                    <Button Width="80" Content="Sign up" 
+                Margin="300,17,0,0" HorizontalAlignment="Left"
+                Background="Transparent" BorderBrush="Transparent"
+                Foreground="Black" FontSize="14"
+                Cursor="Hand" Click="Button_Click_1"/>
+                </Grid>
+            </StackPanel>
+        </Grid>
+        <Frame x:Name="_frame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

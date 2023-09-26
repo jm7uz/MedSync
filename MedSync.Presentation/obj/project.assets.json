@@ -43,7 +43,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "MedSync.Data": "1.0.0"
+          "MedSync.Data": "1.0.0",
+          "MedSync.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MedSync.Service.dll": {}

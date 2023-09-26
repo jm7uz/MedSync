@@ -1,0 +1,26 @@
+﻿<Page x:Class="MedSync.Desktop.Pages.Appointement"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MedSync.Desktop.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="600"
+      Background="Snow"
+      Title="Appointement" >
+
+    <Grid>
+        <StackPanel>
+            <Button 
+        Content="Log out" 
+        HorizontalAlignment="left" VerticalAlignment="Center" 
+        Margin="20 10 0 10"
+        Width="100"/>
+            <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden">
+                <StackPanel Grid.Row="1" Margin="10 0 10 0" Name="stackPanel">
+
+                </StackPanel>
+            </ScrollViewer>
+        </StackPanel>
+    </Grid>
+</Page>

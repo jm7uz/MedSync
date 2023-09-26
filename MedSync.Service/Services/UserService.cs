@@ -43,7 +43,7 @@ public class UserService : IUserService
             CreatedAt = DateTime.UtcNow
         };
 
-        var result = await userRepository.InsertAsync(user);
+        var result = await userRepository.InsertAsync(person);
 
         var mappedUser = new UserForResultDto()
         {
@@ -128,7 +128,16 @@ public class UserService : IUserService
         };
 
         return result;
-
     }
+    public async Task<UserForLoginDto> UserValidator(string email, string password)
+    {
+        var user = (await this.userRepository.SelectAllAsync()).FirstOrDefault(u => (u.Email.ToLower() == email && u.Password == password));
+        var result = new UserForLoginDto()
+        {
+            Id = user.Id,
+            role = user.role,
+        };
 
+        return result;
+    }
 }

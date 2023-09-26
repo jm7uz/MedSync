@@ -7,16 +7,29 @@ namespace MedSync.Presentation
     {
         static async Task Main(string[] args)
         {
-            AppointmentService appointmentService = new AppointmentService();
-            AppointmentForCreationDto appointmentForCreationDto = new AppointmentForCreationDto()
+            //AppointmentService appointmentService = new AppointmentService();
+            //AppointmentForCreationDto appointmentForCreationDto = new AppointmentForCreationDto()
+            //{
+            //    DoctorId = 1,
+            //    PatientId = 1,
+            //    Description = "Bosh og'riq",
+            //    ScheduledDateTime = DateTime.Now,
+            //};
+            //await appointmentService.CreateAsync(appointmentForCreationDto);
+
+            UserForCreationDto cr = new UserForCreationDto()
             {
-                DoctorId = 1,
-                PatientId = 1,
-                Description = "Test",
-                ScheduledDateTime = DateTime.Now,
+                FirstName = "Test",
+                LastName = "test",
+                Email = "test@test.com",
+                Password = "1234",
+                PhoneNumber = "98789797",
+                DateOfBirth = DateTime.Now,
             };
-            await appointmentService.CreateAsync(appointmentForCreationDto);
-            
+
+            UserService userService = new UserService();
+            await userService.CreateAsync(cr);
+
         }
     }
 }

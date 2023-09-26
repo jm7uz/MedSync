@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MedSync.Data\MedSync.Data.csproj" />
+    <ProjectReference Include="..\MedSync.Domain\MedSync.Domain.csproj" />
   </ItemGroup>
 
 </Project>

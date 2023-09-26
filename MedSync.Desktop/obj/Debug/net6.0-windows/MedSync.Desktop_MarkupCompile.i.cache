@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\insta\OneDrive\Desktop\Loyiha\MedSync_Project\MedSync\MedSync.Desktop\App.xaml
-11407045341
+5-438455340
 
-5-481132228
-194726069201
-MainWindow.xaml;
+9464388046
+197599757679
+Components\AppointmentWidget.xaml;MainWindow.xaml;Pages\Appointement.xaml;Pages\Signup.xaml;Pages\UserAddAppointement.xaml;
 
-False
+True
 

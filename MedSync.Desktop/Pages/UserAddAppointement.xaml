@@ -1,0 +1,68 @@
+﻿<Page x:Class="MedSync.Desktop.Pages.UserAddAppointement"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MedSync.Desktop.Pages"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="600"
+      Title="UserAddAppointement" Background="Snow">
+
+    <Grid>
+        <TabControl>
+            <TabItem TabIndex="0">
+                <StackPanel Margin="20">
+                    <Grid>
+                        <Button 
+                                    Content="scheduled appointments" 
+                                    HorizontalAlignment="left" VerticalAlignment="Center" 
+                                    Margin="20 10 0 10"
+                                    Width="200"/>
+
+                        <Button Content="Log out" 
+                            HorizontalAlignment="right" VerticalAlignment="Center" Margin="10 0 20 0"/>
+                    </Grid>
+                    <TextBlock Text="Arrange an appointment " Margin="16 16 12 8" FontSize="16" Width="180">
+                    </TextBlock>
+                    <Separator Style="{StaticResource MaterialDesignLightSeparator}" Background="LightGray" />
+                    <StackPanel Margin="0 20 0 0">
+                        <TextBox materialDesign:HintAssist.Hint="Name" Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                                 Width="250"/>
+                        <ComboBox materialDesign:HintAssist.Hint="Designation"  IsEditable="True" Margin="0 20 0 0"
+                                  Style="{StaticResource MaterialDesignFloatingHintComboBox}" Width="250"/>
+                        <TextBox materialDesign:HintAssist.Hint="Scheduled Date Time" Margin="0 15 0 0" 
+                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" Width="250"/>
+                        <TextBox materialDesign:HintAssist.Hint="Description" Margin="0 15 0 0" 
+                            Style="{StaticResource MaterialDesignFloatingHintTextBox}" Width="250" Height="75"/>
+                        <Separator Style="{StaticResource MaterialDesignLightSeparator}" Width="250"/>
+                        <materialDesign:DialogHost CloseOnClickAway="True">
+                            <materialDesign:DialogHost.DialogContent>
+                                <Grid Margin="20" >
+                                    <TextBlock Text="The Information to be Saved" />
+                                </Grid>
+                            </materialDesign:DialogHost.DialogContent>
+                            <Button Command="{x:Static materialDesign:DialogHost.OpenDialogCommand}" Content="Create appointment" 
+                                    HorizontalAlignment="center" VerticalAlignment="Center"/>
+                        </materialDesign:DialogHost>
+                    </StackPanel>
+                </StackPanel>
+            </TabItem>
+            <TabItem TabIndex="1">
+                <StackPanel>
+                    <Button 
+                        Content="Back" 
+                        HorizontalAlignment="left" VerticalAlignment="Center" 
+                        Margin="20 10 0 10"
+                        Width="100"/>
+                    <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden">
+                        <StackPanel Grid.Row="1" Margin="10 0 10 0" Name="stackPanel">
+
+
+                        </StackPanel>
+                    </ScrollViewer>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Page>

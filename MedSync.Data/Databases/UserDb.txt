@@ -1,0 +1,38 @@
+[
+  {
+    "role": 2,
+    "FirstName": "Admin",
+    "LastName": "",
+    "DateOfBirth": "0001-01-01T00:00:00",
+    "Email": "admin@medsync.com",
+    "Password": "admin",
+    "PhoneNumber": "+99891236585",
+    "Id": 1,
+    "CreatedAt": "2023-09-26T09:15:36.7120942Z",
+    "UpdatedAt": null
+  },
+  {
+    "role": 1,
+    "FirstName": "jaloliddin",
+    "LastName": "Ganijonov",
+    "DateOfBirth": "0001-01-01T00:00:00",
+    "Email": "runixuz@gmail.com",
+    "Password": "Danger1",
+    "PhoneNumber": "+998911243901",
+    "Id": 2,
+    "CreatedAt": "2023-09-26T09:16:37.8082791Z",
+    "UpdatedAt": null
+  },
+  {
+    "role": 0,
+    "FirstName": "Avazbek",
+    "LastName": "Abdumajidov",
+    "DateOfBirth": "0001-01-01T00:00:00",
+    "Email": "avazbek@gmail.com",
+    "Password": "123465",
+    "PhoneNumber": "+998936588556",
+    "Id": 3,
+    "CreatedAt": "2023-09-26T09:20:35.8332141Z",
+    "UpdatedAt": null
+  }
+]

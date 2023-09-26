@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "m4KNR83yfntbftrcxydhtS48dMDSfdDS7GIslERM1U6FnpqZBiJqqsxA5YKQ4oVqfxUtbQD3mXakkepnlK2k2A==",
+  "dgSpecHash": "376sUvIfZG4sRjoL8aQ4B4NMiat+rGFGvLRY8arL7a2ir8w2JvIrdWEOrAN4bfn2C+nHb//WXE+wgq2pAWcxrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\insta\\OneDrive\\Desktop\\Loyiha\\MedSync_Project\\MedSync\\MedSync.Desktop\\MedSync.Desktop.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\insta\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
+    "C:\\Users\\insta\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\insta\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\insta\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

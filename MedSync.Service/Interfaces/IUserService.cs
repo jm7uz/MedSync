@@ -8,4 +8,5 @@ public interface IUserService
     public Task<bool> RemoveAsync(long id);
     public Task<UserForResultDto> GetByIdAsync(long id);
     public Task<List<UserForResultDto>> GetAllAsync();
+    public Task<UserForLoginDto> UserValidator(string email, string password);
 }

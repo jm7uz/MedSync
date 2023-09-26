@@ -150,6 +150,9 @@
             "projectReferences": {
               "C:\\Users\\insta\\OneDrive\\Desktop\\Loyiha\\MedSync_Project\\MedSync\\MedSync.Data\\MedSync.Data.csproj": {
                 "projectPath": "C:\\Users\\insta\\OneDrive\\Desktop\\Loyiha\\MedSync_Project\\MedSync\\MedSync.Data\\MedSync.Data.csproj"
+              },
+              "C:\\Users\\insta\\OneDrive\\Desktop\\Loyiha\\MedSync_Project\\MedSync\\MedSync.Domain\\MedSync.Domain.csproj": {
+                "projectPath": "C:\\Users\\insta\\OneDrive\\Desktop\\Loyiha\\MedSync_Project\\MedSync\\MedSync.Domain\\MedSync.Domain.csproj"
               }
             }
           }

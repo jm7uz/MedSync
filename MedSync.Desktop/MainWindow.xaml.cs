@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MedSync.Desktop.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MedSync.Service.Services;
+using System.IO;
+using MedSync.Service.DTOs;
 
 namespace MedSync.Desktop
 {
@@ -23,6 +27,45 @@ namespace MedSync.Desktop
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private async void Button_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                string all_data = $"{emailText.Text} {passwordText.Password.ToString()}";
+                UserService userService = new UserService();
+                UserForLoginDto result = await userService.UserValidator(emailText.Text.ToString(), passwordText.Password.ToString());
+                if (result != null)
+                {
+                    if (result.role == 0)
+                    {
+                        File.WriteAllText("LoginSession.txt", result.Id.ToString());
+                        MessageBox.Show(all_data);
+                    }
+                    else
+                    {
+                        File.WriteAllText("LoginSession.txt", result.Id.ToString());
+                        MessageBox.Show(all_data);
+                    }
+                    
+                }
+                else
+                {
+                    MessageBox.Show("Incorrect Data!", "Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            _frame.Content = new Signup();
+            
         }
     }
 }

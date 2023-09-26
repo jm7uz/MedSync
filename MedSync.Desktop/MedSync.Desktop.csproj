@@ -7,4 +7,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MedSync.Data\MedSync.Data.csproj" />
+    <ProjectReference Include="..\MedSync.Domain\MedSync.Domain.csproj" />
+    <ProjectReference Include="..\MedSync.Service\MedSync.Service.csproj" />
+  </ItemGroup>
+
 </Project>

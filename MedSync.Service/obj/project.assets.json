@@ -85,7 +85,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MedSync.Data >= 1.0.0"
+      "MedSync.Data >= 1.0.0",
+      "MedSync.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -117,6 +118,9 @@
           "projectReferences": {
             "C:\\Users\\insta\\OneDrive\\Desktop\\Loyiha\\MedSync_Project\\MedSync\\MedSync.Data\\MedSync.Data.csproj": {
               "projectPath": "C:\\Users\\insta\\OneDrive\\Desktop\\Loyiha\\MedSync_Project\\MedSync\\MedSync.Data\\MedSync.Data.csproj"
+            },
+            "C:\\Users\\insta\\OneDrive\\Desktop\\Loyiha\\MedSync_Project\\MedSync\\MedSync.Domain\\MedSync.Domain.csproj": {
+              "projectPath": "C:\\Users\\insta\\OneDrive\\Desktop\\Loyiha\\MedSync_Project\\MedSync\\MedSync.Domain\\MedSync.Domain.csproj"
             }
           }
         }
