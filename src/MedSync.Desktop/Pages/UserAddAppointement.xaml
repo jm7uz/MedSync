@@ -10,30 +10,41 @@
       Title="UserAddAppointement" Background="Snow">
 
     <Grid>
-        <TabControl>
-            <TabItem TabIndex="0">
+        <TabControl Name="mainTab">
+            <TabItem TabIndex="0" Visibility="Hidden">
                 <StackPanel Margin="20">
                     <Grid>
-                        <Button 
-                                    Content="scheduled appointments" 
-                                    HorizontalAlignment="left" VerticalAlignment="Center" 
-                                    Margin="20 10 0 10"
-                                    Width="200"/>
+                        <Button Content="scheduled appointments" HorizontalAlignment="left" VerticalAlignment="Center" 
+                                Margin="20 10 0 10" Width="200" Click="Button_Click_1"/>
 
-                        <Button Content="Log out" 
-                            HorizontalAlignment="right" VerticalAlignment="Center" Margin="10 0 20 0" Click="Button_Click"/>
+                        <Button Content="Log out" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="380,0,0,10" Click="Button_Click" Width="80"/>
                     </Grid>
                     <TextBlock Text="Arrange an appointment " Margin="16 16 12 8" FontSize="16" Width="180">
                     </TextBlock>
                     <Separator Style="{StaticResource MaterialDesignLightSeparator}" Background="LightGray" />
                     <StackPanel Margin="0 20 0 0">
-                        <TextBox materialDesign:HintAssist.Hint="Name" Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                        <TextBox Name="diseaseCause" materialDesign:HintAssist.Hint="Disease cause" Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
                                  Width="250"/>
-                        <ComboBox materialDesign:HintAssist.Hint="Designation"  IsEditable="True" Margin="0 20 0 0"
+                        <ComboBox Name="doctorNames" materialDesign:HintAssist.Hint="Select Doctor"  IsEditable="True" Margin="0 20 0 0"
                                   Style="{StaticResource MaterialDesignFloatingHintComboBox}" Width="250"/>
-                        <TextBox materialDesign:HintAssist.Hint="Scheduled Date Time" Margin="0 15 0 0" 
-                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" Width="250"/>
-                        <TextBox materialDesign:HintAssist.Hint="Description" Margin="0 15 0 0" 
+                        <DatePicker Name="schedueledDay" Width="250"
+                                    materialDesign:HintAssist.Hint="Scheduled Date" Margin="0 20 0 0">
+                            <DatePicker.Resources>
+                                <Style TargetType="DatePickerTextBox">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate>
+                                                <TextBox Text="{Binding Path=SelectedDate, RelativeSource={RelativeSource AncestorType=DatePicker}, StringFormat={}{0:dd/MM/yyyy hh:mm:ss}}"/>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </DatePicker.Resources>
+
+                        </DatePicker>
+                        <materialDesign:TimePicker Name="scheduledTime" Width="250" Margin="0 20 0 0" />
+
+                        <TextBox Name="descriiptionText" materialDesign:HintAssist.Hint="Description" Margin="0 15 0 0" 
                             Style="{StaticResource MaterialDesignFloatingHintTextBox}" Width="250" Height="75"/>
                         <Separator Style="{StaticResource MaterialDesignLightSeparator}" Width="250"/>
                         <materialDesign:DialogHost CloseOnClickAway="True">
@@ -42,8 +53,8 @@
                                     <TextBlock Text="The Information to be Saved" />
                                 </Grid>
                             </materialDesign:DialogHost.DialogContent>
-                            <Button Command="{x:Static materialDesign:DialogHost.OpenDialogCommand}" Content="Create appointment" 
-                                    HorizontalAlignment="center" VerticalAlignment="Center"/>
+                            <Button Name="createAppointement" Command="{x:Static materialDesign:DialogHost.OpenDialogCommand}" Content="Create appointment" 
+                                    HorizontalAlignment="center" VerticalAlignment="Center" Click="createAppointement_Click"/>
                         </materialDesign:DialogHost>
                     </StackPanel>
                 </StackPanel>
@@ -54,11 +65,9 @@
                         Content="Back" 
                         HorizontalAlignment="left" VerticalAlignment="Center" 
                         Margin="20 10 0 10"
-                        Width="100"/>
+                        Width="100" Click="Button_Click_2"/>
                     <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden">
-                        <StackPanel Grid.Row="1" Margin="10 0 10 0" Name="stackPanel">
-
-
+                        <StackPanel Grid.Row="1" Margin="50 20 50 20" Name="stackPanel">
                         </StackPanel>
                     </ScrollViewer>
                 </StackPanel>

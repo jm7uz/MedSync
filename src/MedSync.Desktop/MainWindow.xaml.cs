@@ -33,32 +33,39 @@ namespace MedSync.Desktop
         {
             try
             {
-                string all_data = $"{emailText.Text} {passwordText.Password.ToString()}";
-                UserService userService = new UserService();
-                UserForLoginDto result = await userService.UserValidator(emailText.Text.ToString(), passwordText.Password.ToString());
-                if (result != null)
+                if (emailText.Text.ToString() is not null && passwordText.Password.ToString() is not null)
                 {
-                    if (result.role == 0)
+                    UserService userService = new UserService();
+                    UserForLoginDto result = await userService.UserValidator(emailText.Text.ToString(), passwordText.Password.ToString());
+                    if (result is not null)
                     {
-                        Width = 600;
-                        Height = 600;
-                        _frame.Content = new UserAddAppointement();
-                        File.WriteAllText("LoginSession.txt", result.Id.ToString());
+                        if (result.role == 0)
+                        {
+                            Width = 600;
+                            Height = 600;
+                            _frame.Content = new UserAddAppointement();
+                            File.WriteAllText("../../../LoginSession.txt", result.Id.ToString());
+                        }
+                        else
+                        {
+                            Width = 600;
+                            Height = 600;
+                            _frame.Content = new Appointement();
+                            File.WriteAllText("../../../LoginSession.txt", result.Id.ToString());
+                            MessageBox.Show("successfully login.");
+                        }
+
                     }
                     else
                     {
-                        Width = 600;
-                        Height = 600;
-                        _frame.Content = new Appointement();
-                        File.WriteAllText("LoginSession.txt", result.Id.ToString());
-                        MessageBox.Show(all_data);
+                        MessageBox.Show("Incorrect Data!", "Error");
                     }
-                    
                 }
                 else
                 {
                     MessageBox.Show("Incorrect Data!", "Error");
                 }
+                
             }
             catch (Exception ex)
             {
@@ -72,5 +79,6 @@ namespace MedSync.Desktop
             _frame.Content = new Signup();
             
         }
+
     }
 }

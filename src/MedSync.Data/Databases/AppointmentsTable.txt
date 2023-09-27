@@ -6,7 +6,47 @@
     "Description": "Bosh og'riq",
     "Status": 0,
     "Id": 2,
-    "CreatedAt": "2023-09-26T09:14:46.2501956Z",
+    "CreatedAt": "2023-09-27T08:28:52.4789619Z",
+    "UpdatedAt": "2023-09-27T08:28:52.4789624Z"
+  },
+  {
+    "DoctorId": 2,
+    "PatientId": 2,
+    "ScheduledDateTime": "2023-09-14T05:35:00",
+    "Description": "sdfdsf - sdfsdf sdf sdfds f",
+    "Status": 0,
+    "Id": 3,
+    "CreatedAt": "2023-09-27T08:28:53.9409764Z",
+    "UpdatedAt": "2023-09-27T08:28:53.940977Z"
+  },
+  {
+    "DoctorId": 2,
+    "PatientId": 2,
+    "ScheduledDateTime": "2023-09-28T03:35:00",
+    "Description": "Bohona - Uyga ketishga bahona",
+    "Status": 0,
+    "Id": 4,
+    "CreatedAt": "2023-09-27T08:29:39.3934092Z",
+    "UpdatedAt": null
+  },
+  {
+    "DoctorId": 2,
+    "PatientId": 3,
+    "ScheduledDateTime": "2023-09-28T05:40:00",
+    "Description": "Bahona - Uyga ketish uchun man ham bahona qildim.",
+    "Status": 0,
+    "Id": 5,
+    "CreatedAt": "2023-09-27T08:44:00.5278929Z",
+    "UpdatedAt": null
+  },
+  {
+    "DoctorId": 2,
+    "PatientId": 3,
+    "ScheduledDateTime": "2023-09-30T08:45:00",
+    "Description": "Bosh og'rig'i - yoq",
+    "Status": 0,
+    "Id": 6,
+    "CreatedAt": "2023-09-27T08:45:47.7528481Z",
     "UpdatedAt": null
   }
 ]

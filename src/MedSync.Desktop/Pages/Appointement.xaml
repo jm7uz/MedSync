@@ -15,9 +15,12 @@
         Content="Log out" 
         HorizontalAlignment="left" VerticalAlignment="Center" 
         Margin="20 10 0 10"
-        Width="100"/>
+        Width="100" Click="Button_Click"/>
             <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden">
-                <StackPanel Grid.Row="1" Margin="10 0 10 0" Name="stackPanel">
+                <StackPanel Grid.Row="1" Margin="10 0 10 0" Name="stackPanel"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Center">
+                    <TextBlock Text="Id  |  Patient Id  |  Scheduled DateTime  |  Description" FontSize="18" Margin="15"/>
 
                 </StackPanel>
             </ScrollViewer>

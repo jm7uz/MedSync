@@ -69,6 +69,7 @@ public class UserService : IUserService
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 PhoneNumber = user.PhoneNumber,
+                role = user.role,
             };
             result.Add(mappedUser);
         }

@@ -19,7 +19,7 @@
             <StackPanel Grid.Row="0">
                 
                 <Border Background="Transparent">
-                    <Image Source="Resources/Images/Logo.jpg" Stretch="Fill"
+                    <Image Source="https://static.wixstatic.com/media/69249c_07a96d824060412fb544c2647fe30a71~mv2_d_4961_3508_s_4_2.png/v1/fill/w_420,h_158,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Copy%20of%20MedSync%20Logo%20copy.png" Stretch="Fill"
         Width="300" Height="110" Margin="0 50 0 0"/>
                 </Border>
                 <Label Content="Healthcare Appointment" 
