@@ -1,7 +1,9 @@
 # MedSync: Healthcare Appointment Scheduling and Management System
+![Project Logo/Icon (if applicable)]
+
 ![image](https://github.com/jm7uz/MedSync/assets/87977243/8f8b7fbe-7d7a-457e-82bd-6638e273d61b)
 https://dbdiagram.io/d/6513efeeffbf5169f0962ea5
-![Project Logo/Icon (if applicable)](https://static.wixstatic.com/media/69249c_07a96d824060412fb544c2647fe30a71~mv2_d_4961_3508_s_4_2.png/v1/fill/w_420,h_158,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Copy%20of%20MedSync%20Logo%20copy.png)
+(https://static.wixstatic.com/media/69249c_07a96d824060412fb544c2647fe30a71~mv2_d_4961_3508_s_4_2.png/v1/fill/w_420,h_158,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Copy%20of%20MedSync%20Logo%20copy.png)
 
 ## Overview
 
